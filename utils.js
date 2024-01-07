@@ -1,4 +1,5 @@
 // Based off of Python's range() function
+// Credits to Josh W. Comeau (https://github.com/joshwcomeau)
 export function range(number1, number2, step = 1) {
   const output = []
 
