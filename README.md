@@ -1,3 +1,3 @@
-# JavaScript utility functions
+# TypeScript utilities
 
-A simple collection of useful functions that can be used in various projects.
+A collection of useful TypeScript utilities (according to me) that can be added to any project.
