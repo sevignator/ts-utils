@@ -1,8 +1,7 @@
 /**
- * @file Function based on the `range()` built-in function in Python.
- * Implementation by Josh W. Comeau (https://github.com/joshwcomeau).
+ * @function Function based on the `range()` built-in function in Python.
+ * Implementation written by Josh W. Comeau (https://github.com/joshwcomeau).
  */
-
 export function range(number1: number, number2: number, step = 1) {
   const output: number[] = [];
 
