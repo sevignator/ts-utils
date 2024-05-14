@@ -1,5 +1,5 @@
 /**
- * @function Async function to create an arbitrary delay in your program.
+ * @function Promise-based function to create an arbitrary delay in your program.
  */
 export function wait(delay: number) {
   return new Promise<void>((resolve) => {
