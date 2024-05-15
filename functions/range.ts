@@ -2,15 +2,15 @@
  * @function Function based on the `range()` built-in function in Python.
  * Implementation written by Josh W. Comeau (https://github.com/joshwcomeau).
  */
-export function range(number1: number, number2: number, step = 1) {
+export function range(start: number, end: number, step = 1) {
   const output: number[] = [];
 
-  if (number2) {
-    for (let i = number1; i < number2; i += step) {
+  if (start) {
+    for (let i = start; i < end; i += step) {
       output.push(i);
     }
   } else {
-    for (let i = 0; i < number1; i++) {
+    for (let i = 0; i < end; i++) {
       output.push(i);
     }
   }

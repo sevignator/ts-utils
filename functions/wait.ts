@@ -1,5 +1,5 @@
 /**
- * @function Promise-based function to create an arbitrary delay in your program.
+ * @function Function for creating an arbitrary delay in your program using a promise.
  */
 export function wait(milliseconds: number) {
   return new Promise<void>((resolve) => {
