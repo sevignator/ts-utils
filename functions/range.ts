@@ -2,7 +2,7 @@
  * @description
  * Function based on the `range()` built-in function in Python.
  *
- * @author Josh W. Comeau
+ * @author Josh W. Comeau <https://github.com/joshwcomeau>
  */
 export function range(start: number, end: number, step = 1) {
   const output: number[] = [];

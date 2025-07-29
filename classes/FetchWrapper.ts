@@ -2,8 +2,10 @@ type DefaultBody = Record<string, unknown>;
 type MethodTypes = 'POST' | 'PUT' | 'DELETE';
 
 /**
- * @classdesc Class for making type-safe fetch requests.
- * Implementation written by Jad Joubran (https://github.com/JadJoubranBV).
+ * @description
+ * Class for making type-safe fetch requests.
+ *
+ * @author Jad Joubran <https://github.com/JadJoubranBV>.
  */
 class FetchWrapper {
   #baseURL: string;

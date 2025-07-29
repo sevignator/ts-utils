@@ -6,7 +6,7 @@ import { normalize } from './normalize';
  * Normalizes (or interpolates) a value across a current scale and a new scale,
  * and clamps the result.
  *
- * @author Josh W. Comeau
+ * @author Josh W. Comeau <https://github.com/joshwcomeau>
  */
 export function clampedNormalize(
   value: number,
