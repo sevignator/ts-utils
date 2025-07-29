@@ -1,6 +1,8 @@
 /**
- * @function Function based on the `range()` built-in function in Python.
- * Implementation written by Josh W. Comeau (https://github.com/joshwcomeau).
+ * @description
+ * Function based on the `range()` built-in function in Python.
+ *
+ * @author Josh W. Comeau
  */
 export function range(start: number, end: number, step = 1) {
   const output: number[] = [];

@@ -1,4 +1,4 @@
-import { expect, test } from 'vitest';
+import { test, expect } from 'vitest';
 import getISODate from './getISODate';
 
 test('properly formats the current date', () => {
